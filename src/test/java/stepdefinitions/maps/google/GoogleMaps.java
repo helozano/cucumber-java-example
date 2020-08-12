@@ -15,6 +15,7 @@ public class GoogleMaps {
 
     @Before
     public void beforeScenario() {
+        System.setProperty("webdriver.chrome.driver","C:/maven/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
