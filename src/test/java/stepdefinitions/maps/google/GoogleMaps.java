@@ -15,7 +15,7 @@ public class GoogleMaps {
 
     @Before
     public void beforeScenario() {
-        driver = new FirefoxDriver();
+        driver = new ChromeDriver();
     }
 
     @After
